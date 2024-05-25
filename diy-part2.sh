@@ -18,4 +18,4 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 
 # Modify hostname
 sed -i 's/OpenWrt/SIM AX1800T/g' package/base-files/files/bin/config_generate
-sed -i 's/OpenWrt/PandoraBox/g' openwrt/package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i 's/OpenWrt/PandoraBox/g' openwrt/package/kernel/mac80211/files/lib/wifi/mac80211.sh
