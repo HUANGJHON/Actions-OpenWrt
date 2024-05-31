@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/HUANGJHON/lede
+  REPO_URL: https://github.com/HiGarfield/lede-17.01.4-Mod-MTK
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
