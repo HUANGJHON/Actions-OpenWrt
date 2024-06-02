@@ -11,11 +11,14 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
-#sed -i 's/OpenWrt/SIM AX1800T/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/R619C/g' package/base-files/files/bin/config_generate
 #sed -i 's/OpenWrt/PandoraBox/g' openwrt/package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
