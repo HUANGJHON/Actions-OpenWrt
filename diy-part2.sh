@@ -17,8 +17,8 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
-sed -i 's/OpenWrt/R619AC/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/R619AC/g' package/base-files/files/bin/config_generate
 #sed -i 's/OpenWrt/PandoraBox/g' openwrt/package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
-sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
+#sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
