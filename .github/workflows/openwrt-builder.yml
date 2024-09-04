@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/HUANGJHON/padavanonly_immortalwrt
+  REPO_URL: https://github.com/vb1980/padavanonly_immortalwrt
   REPO_BRANCH: mt7915_mtwifi
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
