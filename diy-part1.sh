@@ -14,8 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-git clone https://github.com/x-wrt/com.x-wrt.git package/com.x-wrt
-# git clone https://github.com/stangri/adblock-fast.git package/adblock-fast
+# git clone https://github.com/x-wrt/com.x-wrt.git package/com.x-wrt
+git https://github.com/HUANGJHON/turboacc.git package/turboacc
 
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
