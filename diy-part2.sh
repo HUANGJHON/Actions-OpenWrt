@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.6.1/192.168.123.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.6.1/192.168.123.1/g' package/base-files/files/bin/config_generate
 #sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_generate
 
 # Modify default theme
@@ -19,7 +19,7 @@ sed -i 's/192.168.6.1/192.168.123.1/g' package/base-files/files/bin/config_gener
 
 # Modify hostname
 #sed -i 's/ImmortalWrt/R619AC/g' package/base-files/files/bin/config_generate
-sed -i 's/OpenWrt/WR1200JS/g' package/base-files/files/bin/config_generate
+#sed -i 's/OpenWrt/WR1200JS/g' package/base-files/files/bin/config_generate
 #sed -i 's/OpenWrt/PandoraBox/g' openwrt/package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #sed -i '8i src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
