@@ -23,3 +23,5 @@ sed -i 's/ImmortalWrt/XG-040G-MD/g' package/base-files/files/bin/config_generate
 #sed -i 's/OpenWrt/PandoraBox/g' openwrt/package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #sed -i '8i src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
+
+curl -sSL https://raw.githubusercontent.com/mufeng05/turboacc/main/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
