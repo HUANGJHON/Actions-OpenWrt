@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/hong66489/openwrt
-  REPO_BRANCH: openwrt-25.12
+  REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 040g-md.config
   DIY_P1_SH: diy-part1.sh
