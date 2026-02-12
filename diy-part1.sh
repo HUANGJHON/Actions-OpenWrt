@@ -17,8 +17,8 @@
 #git clone https://github.com/x-wrt/com.x-wrt.git package/com.x-wrt
 #git clone https://github.com/kenzok8/openwrt-packages.git package/small
 #git clone https://github.com/xuanranran/openwrt-package.git package/xuanranran
-git clone https://github.com/w9315273/luci-app-adguardhome package/luci-app-adguardhome
-#git clone https://github.com/HUANGJHON/turboacc.git package/turboacc
+#git clone https://github.com/w9315273/luci-app-adguardhome package/luci-app-adguardhome
+git clone https://github.com/kiddin9/kwrt-packages package/kwrt
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone -b package --single-branch https://github.com/chenmozhijin/turboacc.git package/shortcut-fe
 
