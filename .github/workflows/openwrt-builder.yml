@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/hong66489/openwrt
+  REPO_URL: https://github.com/xiangtailiang/openwrt
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 040g-md.config
