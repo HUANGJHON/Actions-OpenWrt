@@ -15,7 +15,7 @@
 
 # Add a feed source
 #git clone https://github.com/x-wrt/com.x-wrt.git package/com.x-wrt
-git clone https://github.com/kenzok8/openwrt-packages package/small
+#git clone https://github.com/kenzok8/openwrt-packages package/small
 #git clone https://github.com/xuanranran/openwrt-package.git package/xuanranran
 #git clone https://github.com/OneNAS-space/luci-app-adguardhome package/luci-app-adguardhome
 #git clone https://github.com/TanZhiwen2001/luci-app-adguardhome package/kwrt
